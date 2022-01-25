@@ -46,52 +46,60 @@ class Home(Resource):
                                 {
                                     "right": [
                                         {
-                                            "text": "Home",
-                                            "url": "https://preview.colorlib.com/theme/inds/index.html"
-                                        },
-                                        {
-                                            "text": "About",
-                                            "url": "https://preview.colorlib.com/theme/inds/about.html"
-                                        },
-                                        {
-                                            "text": "Industries",
-                                            "url": "https://preview.colorlib.com/theme/inds/industries.html"
-                                        },
-                                        {
-                                            "text": "Works",
-                                            "url": "https://preview.colorlib.com/theme/inds/work.html"
-                                        },
-                                        {
-                                            "text": "Blog",
-                                            "url": "https://preview.colorlib.com/theme/inds/blog.html",
-                                            "dropdown": [
+                                            "menubar": [
+                                                {
+                                                    "text": "Home",
+                                                    "url": "https://preview.colorlib.com/theme/inds/index.html"
+                                                },
+                                                {
+                                                    "text": "About",
+                                                    "url": "https://preview.colorlib.com/theme/inds/about.html"
+                                                },
+                                                {
+                                                    "text": "Industries",
+                                                    "url": "https://preview.colorlib.com/theme/inds/industries.html"
+                                                },
+                                                {
+                                                    "text": "Works",
+                                                    "url": "https://preview.colorlib.com/theme/inds/work.html"
+                                                },
                                                 {
                                                     "text": "Blog",
-                                                    "url": "https://preview.colorlib.com/theme/inds/blog.html"
+                                                    "url": "https://preview.colorlib.com/theme/inds/blog.html",
+                                                    "dropdown": [
+                                                        {
+                                                            "text": "Blog",
+                                                            "url": "https://preview.colorlib.com/theme/inds/blog.html"
+                                                        },
+                                                        {
+                                                            "text": "blog details",
+                                                            "url": "https://preview.colorlib.com/theme/inds/single-blog.html"
+                                                        }
+                                                    ]
                                                 },
                                                 {
-                                                    "text": "blog details",
-                                                    "url": "https://preview.colorlib.com/theme/inds/single-blog.html"
-                                                }
+                                                    "text": "Pages",
+                                                    "url": "https://preview.colorlib.com/theme/inds/contact.html#",
+                                                    "Text_pages": [
+                                                        {
+                                                            "text": "Contact",
+                                                            "url": "https://preview.colorlib.com/theme/inds/contact.html"
+                                                        },
+                                                        {
+                                                            "text": "Element",
+                                                            "url": "https://preview.colorlib.com/theme/inds/elements.html"
+                                                        }
+                                                    ]
+                                                },
                                             ]
                                         },
                                         {
-                                            "text": "Pages",
-                                            "url": "https://preview.colorlib.com/theme/inds/contact.html#",
-                                            "Text_pages": [
+                                            "specialmenubar": [
                                                 {
-                                                    "text": "Contact",
-                                                    "url": "https://preview.colorlib.com/theme/inds/contact.html"
-                                                },
-                                                {
-                                                    "text": "Element",
-                                                    "url": "https://preview.colorlib.com/theme/inds/elements.html"
+                                                    "text": "Get a quote",
+                                                    "url": "https://preview.colorlib.com/theme/inds/contact.html#"
                                                 }
                                             ]
-                                        },
-                                        {
-                                            "text": "Home",
-                                            "url": "https://preview.colorlib.com/theme/inds/contact.html#"
                                         }
                                     ]
                                 }
@@ -589,7 +597,7 @@ class About_Us(Resource):
                     ],
                     "content3": [
                         {
-                            "group1": [
+                            "profilmembers": [
                                 {
                                     "text": "Our Team Best Mambers",
                                     "text2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ua. Ut enim ad minim veni.",
@@ -603,43 +611,32 @@ class About_Us(Resource):
                             ]
                         },
                         {
-                            "group2": [
+                            "members": [
                                 {
                                     "image": "gambar karyawan",
                                     "text1": "bruce roberts.",
                                     "text2": "team officer"
-                                }
-                            ]
-                        },
-                        {
-                            "group3": [
+                                },
                                 {
                                     "image": "gambar karyawan",
                                     "text1": "bruce roberts.",
                                     "text2": "team officer"
-                                }
-                            ]
-                        },
-                        {
-                            "group4": [
+                                },
                                 {
                                     "image": "gambar karyawan",
                                     "text1": "bruce roberts.",
                                     "text2": "team officer"
-                                }
-                            ]
-                        },
-                        {
-                            "group5": [
+                                },
                                 {
                                     "image": "gambar karyawan",
                                     "text1": "bruce roberts.",
                                     "text2": "team officer"
-                                }
-                            ]
-                        },
-                        {
-                            "group6": [
+                                },
+                                {
+                                    "image": "gambar karyawan",
+                                    "text1": "bruce roberts.",
+                                    "text2": "team officer"
+                                },
                                 {
                                     "image": "gambar karyawan",
                                     "text1": "bruce roberts.",
